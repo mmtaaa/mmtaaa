@@ -1,10 +1,14 @@
-- 👋 Hi, I’m @mmtaaa
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include<stdio.h>
+void main()
+{
+	int a,b,c;
+printf("enter two number");
+scanf("%d %d",&a ,&b);
+printf("before sawp,the numbers are:%d %d",a,b);
+c=a;
+a=b;
+b=c;
+printf("the numbers after swapping are: %d %d",a,b);
 
-<!---
-mmtaaa/mmtaaa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+}
